@@ -24,7 +24,7 @@ A responsive replica of Snapchat's login screen built using **HTML**, **CSS**, a
 - 🎨 **Responsive Design**: Optimized for mobile screens.  
 - 💻 **Clean Layout**: Mimics Snapchat's official login page.  
 - 🔒 **Mock Login Form**: Includes email and password fields (non-functional).
-- To get username and password on email add access key in form action (you get access key from getform.io)
+
 
 ---
 
